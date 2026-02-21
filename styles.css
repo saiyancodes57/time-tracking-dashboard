@@ -171,6 +171,12 @@ body {
   padding: 1.5rem;
   background-color: var(--navy-900);
   color: var(--white);
+  position: relative;
+  top: 2px;
+}
+
+.card-details:hover {
+  background-color: var(--navy-800);
 }
 
 .time-details,
@@ -183,42 +189,42 @@ body {
 
 .work {
   background-image: url(icon-work.svg);
-  background-position: top right;
+  background-position: top right 15px;
   background-repeat: no-repeat;
   background-color: var(--orange);
 }
 
 .play {
   background-image: url(icon-play.svg);
-  background-position: top right;
+  background-position: top right 15px;
   background-repeat: no-repeat;
   background-color: var(--blue-300);
 }
 
 .study {
   background-image: url(icon-study.svg);
-  background-position: top right;
+  background-position: top right 15px;
   background-repeat: no-repeat;
   background-color: var(--pink-400);
 }
 
 .exercise {
   background-image: url(icon-exercise.svg);
-  background-position: top right;
+  background-position: top right 15px;
   background-repeat: no-repeat;
   background-color: var(--green-400);
 }
 
 .social {
   background-image: url(icon-social.svg);
-  background-position: top right;
+  background-position: top right 15px;
   background-repeat: no-repeat;
   background-color: var(--purple-700);
 }
 
 .self-care {
   background-image: url(icon-self-care.svg);
-  background-position: top right;
+  background-position: top right 15px;
   background-repeat: no-repeat;
   background-color: var(--yellow-300);
 }
@@ -228,6 +234,29 @@ body {
   line-height: 1.3125rem; /* 21px */
   font-weight: 400; /* Medium */
   letter-spacing: 0;
+}
+
+.time-options .selected {
+  color: var(--white);
+}
+
+@media (max-width: 340px) {
+  .time-details {
+    flex-direction: column;
+    gap: 0.25rem;
+    align-items: center;
+  }
+
+  .time-options {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .top-profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 @media (min-width: 48rem) {
@@ -263,7 +292,7 @@ body {
 @media (min-width: 68.75rem) {
   /* for 1000px */
   .card-grid {
-    grid-template-columns: repeat(4, minmax(14rem, 1fr));
+    grid-template-columns: 16rem repeat(3, minmax(14rem, 1fr));
     grid-template-areas:
       "profile work play study"
       "profile exercise social self-care";
