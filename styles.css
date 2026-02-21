@@ -292,7 +292,7 @@ body {
 @media (min-width: 68.75rem) {
   /* for 1000px */
   .card-grid {
-    grid-template-columns: 16rem repeat(3, minmax(14rem, 1fr));
+    grid-template-columns: 16rem repeat(3, minmax(15rem, 1fr));
     grid-template-areas:
       "profile work play study"
       "profile exercise social self-care";
