@@ -10,23 +10,23 @@
 
 :root {
   /* Primary Category Colors */
-  --orange: #ff8b64; /* */
-  --blue-300: #55c2e6; /* */
-  --pink-400: #ff5e7d; /* */
-  --green-400: #4bcf82; /* */
-  --purple-700: #7335d2; /* */
-  --purple-600: #5747ea; /* */
-  --purple-500: #7078c9; /* */
+  --orange: #ff8b64;
+  --blue-300: #55c2e6;
+  --pink-400: #ff5e7d;
+  --green-400: #4bcf82;
+  --purple-700: #7335d2;
+  --purple-600: #5747ea;
+  --purple-500: #7078c9;
 
-  --yellow-300: #f1c75b; /* */
+  --yellow-300: #f1c75b;
 
   /* Neutral/Interface Colors */
   --navy-950: #0e1323; /* Main Background */
   --navy-900: #1c204b; /* Card Background */
   --navy-800: #33397a; /* Card Hover State */
   --navy-200: #bbc0ff; /* Secondary Text */
-  --white: #ffffff; /* */
-  --black: #000000; /* */
+  --white: #ffffff;
+  --black: #000000;
   --grey-200: #d8d8d8;
 }
 
