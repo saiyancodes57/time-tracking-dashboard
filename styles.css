@@ -100,6 +100,7 @@ body {
 
 /* Card grid */
 .card-grid {
+  max-width: 69.375rem;
   display: grid;
   grid-template-areas:
     "profile"
@@ -231,6 +232,7 @@ body {
 
 @media (min-width: 48rem) {
   .card-grid {
+    grid-template-columns: repeat(3, minmax(14rem, 1fr));
     grid-template-areas:
       "profile profile profile"
       "work play study"
@@ -261,6 +263,7 @@ body {
 @media (min-width: 68.75rem) {
   /* for 1000px */
   .card-grid {
+    grid-template-columns: repeat(4, minmax(14rem, 1fr));
     grid-template-areas:
       "profile work play study"
       "profile exercise social self-care";
