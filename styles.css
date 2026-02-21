@@ -100,7 +100,7 @@ body {
 
 /* Card grid */
 .card-grid {
-  max-width: 69.375rem;
+  /* max-width: 69.375rem; */
   display: grid;
   grid-template-areas:
     "profile"
@@ -159,7 +159,7 @@ body {
 
 /* CARD STYLES */
 .card-bg {
-  padding-top: 50px;
+  padding-top: 45px;
 }
 
 .card-bg,
@@ -326,5 +326,9 @@ body {
     font-size: 2.5rem;
     line-height: 1.175;
     width: 10rem;
+  }
+
+  .profile-picture {
+    margin-bottom: 2.5rem;
   }
 }
